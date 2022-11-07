@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    easy_translate (0.5.1)
+      thread
+      thread_safe
+    json (2.6.2)
+    os (1.1.4)
+    thread (0.2.2)
+    thread_safe (0.3.6)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  easy_translate
+  json
+  os
+
+BUNDLED WITH
+   2.3.25
