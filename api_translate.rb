@@ -15,7 +15,7 @@ class Api_translate
 		request = Net::HTTP::Post.new(url)
 		request["content-type"] = 'application/x-www-form-urlencoded'
 		request["Accept-Encoding"] = 'application/gzip'
-		request["X-RapidAPI-Key"] = '68d8276a5amsh6a3c3757b57e0d3p18a784jsnb9456f1bf60f'
+		request["X-RapidAPI-Key"] = ''
 		request["X-RapidAPI-Host"] = 'google-translate1.p.rapidapi.com'
 		request.body = "q=#{msg}&target=#{target}&source=#{source}"
 
